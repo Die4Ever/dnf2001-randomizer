@@ -1,0 +1,2 @@
+class DNFRandoRootWindow extends UDukeRootWindow;
+
