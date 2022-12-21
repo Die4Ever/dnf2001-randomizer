@@ -26,7 +26,11 @@ function SwapAll(class<Actor> c, float percent_chance)
 
 function bool SkipActorBase(Actor a)
 {
+    local AIPawn ai;
     if( (a.Owner != None) || a.bStatic || a.bHidden || a.bMovable==False )
+        return true;
+    ai = AIPawn(a);
+    if(ai != None && ai.bAggressiveToPlayer==false)
         return true;
     return false;
 }
@@ -114,7 +118,7 @@ function bool SetActorLocation(Actor a, vector newloc, optional bool retainOrder
 
     p = AIPawn(a);
     if(p != None) {
-        p.GotoState('Wandering');
+        //p.GotoState('Wandering');
     }
     /*if( p != None && p.Orders == 'Patrolling' && !retainOrders ) {
         p.Orders = 'Wandering';
@@ -153,4 +157,7 @@ function bool HasBased(Actor a) {
     return false;
 }
 
-
+defaultproperties
+{
+    _skipactor_types(0)=class'Keycard'
+}

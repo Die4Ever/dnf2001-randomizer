@@ -18,7 +18,7 @@ function Init()
     if(i > -1) {
         localURL = Left(localURL, i);
     }
-    l(self$".Init(), localURL: "$localURL);
+    l(self$".Init(), localURL: "$localURL$", DNFRando Version: "$VersionString());
     CrcInit();
     Enable('Tick');
     bTickEnabled = true;
