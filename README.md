@@ -1,4 +1,4 @@
-# dnf2001-randomizer
+# Duke Nukem Forever 2001 Randomizer
 
 Install [the DNF2001 Restoration Project](https://www.moddb.com/mods/dnf2001-restoration-project/downloads/duke-nukem-restoration-first-slice-10).
 
