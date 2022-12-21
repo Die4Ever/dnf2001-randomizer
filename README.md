@@ -1,6 +1,6 @@
 # dnf2001-randomizer
 
-Install [the DNF2001 Restoration Project](https://www.moddb.com/mods/dnf2001-restoration-project/downloads).
+Install [the DNF2001 Restoration Project](https://www.moddb.com/mods/dnf2001-restoration-project/downloads/duke-nukem-restoration-first-slice-10).
 
 Download [DNFRando.u](https://github.com/Die4Ever/dnf2001-randomizer/raw/main/DNFRando.u) into your game's `System` folder.
 
